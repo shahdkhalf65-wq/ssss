@@ -1,0 +1,46 @@
+/* resetting simple */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #1e4fd7;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #16a34a;
+}
